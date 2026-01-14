@@ -17,7 +17,6 @@ Description: Verify successful account creation when input data is valid
 1. Account created successfully and show message "Registration is successful"
 2. Verify account name displays correctly
 
-
 ## Test Scenarios 2: Validation Handling
 
 Description: Verify that form validations work correctly for missing or invalid inputs
@@ -41,14 +40,14 @@ Description: Verify that form validations work correctly for missing or invalid 
 
 1. Input field: Login, First Name, Last Name
 2. Input filed: "Password" with correct format: has number, has letters, has special characters, >8lengths
-2. The "Confirm Password" field does not match the "Password" field.
+3. The "Confirm Password" field does not match the "Password" field.
 
 **Expected Results:**
 
 1. Display error message
 2. Button "Register" remains disabled
 
-### TC04: Invalid password format validation 
+### TC04: Invalid password format validation
 
 **Steps:**
 
@@ -61,7 +60,7 @@ Description: Verify that form validations work correctly for missing or invalid 
 
 1. Display error message
 
-## Test Scenarios 3: Exit register page 
+## Test Scenarios 3: Exit register page
 
 ### TC04: Cancel register page
 

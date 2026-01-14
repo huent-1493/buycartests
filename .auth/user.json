@@ -1,0 +1,14 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://buggy.justtestit.org",
+      "localStorage": [
+        {
+          "name": "token",
+          "value": "eyJraWQiOiJwNDBtYVJYRVg0VmFFQnpTbzUrSDRUd2UxcTF4cUpMcGEwQ3lPaVNmUTZBPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwMTMyMWZkOC1jMWZhLTQ0MDctYmMzYS0xN2I0MTI1ZjdkYzciLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuYXAtc291dGhlYXN0LTIuYW1hem9uYXdzLmNvbVwvYXAtc291dGhlYXN0LTJfRVRUSUtjU3NvIiwiY2xpZW50X2lkIjoiMnQxbXV0Z2M0YXVpdWhvcWltajJjdDBoOG4iLCJvcmlnaW5fanRpIjoiM2U1YWIzODMtMTcwNi00YzE2LWJhMmQtYjRmNjQwZjNiZGI0IiwiZXZlbnRfaWQiOiI3YjQ1NTk3ZC05YTY5LTRmODUtODM5Yy0zY2EzNzA2MmQyNjMiLCJ0b2tlbl91c2UiOiJhY2Nlc3MiLCJzY29wZSI6ImF3cy5jb2duaXRvLnNpZ25pbi51c2VyLmFkbWluIiwiYXV0aF90aW1lIjoxNzY4Mzc4NzU2LCJleHAiOjE3NjgzODIzNTYsImlhdCI6MTc2ODM3ODc1NiwianRpIjoiYTM5Zjc1OTUtNGZmYy00Y2I1LTljNmEtOTVmMTdlM2JjOTJiIiwidXNlcm5hbWUiOiJIdWUxIn0.NHQCjEPuSlMfNMSZXlORUrU9u0VMXQZaUUZLBS80v9WD7hIyM4ArCZ-4p0prq75RlrA-cS9VsGzKlXyUnVpWWWwcR6_R1XJk04D5Q-uf323ED-9LKsUt6iLhf8drbEGNCbmfu2ON1wb3prSbwDC7cFWwHOFIbd8U0W6E8ZnExJAqSbyfmoHpTHpQzV-MEf_yB10Iqh7_PK9llmpbbJJE848CvOuANNjq5Uqh5wUVX4i8wvAlIjBinhurMrOB8v3C7CXib4HcrA5Z1YpgBGwW1gkNuw-X1UeG4ddfCj8Ptb2lYp4XUdbcpSQbeOXFbVftl0JRyJ3xZX-F3UugFjBBLw"
+        }
+      ]
+    }
+  ]
+}
