@@ -1,6 +1,7 @@
 import { test as base } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { DashboardPage } from '../pages/DashboardPage';
+import { RegisterPage } from '../pages/RegisterPage';
 
 /**
  * Extended test fixtures with page objects
@@ -8,6 +9,7 @@ import { DashboardPage } from '../pages/DashboardPage';
 type TestFixtures = {
   loginPage: LoginPage;
   dashboardPage: DashboardPage;
+  registerPage: RegisterPage;
 };
 
 /**
@@ -28,6 +30,14 @@ export const test = base.extend<TestFixtures>({
   dashboardPage: async ({ page }, use) => {
     const dashboardPage = new DashboardPage(page);
     await use(dashboardPage);
+  },
+
+  /**
+   * Register page fixture
+   */
+  registerPage: async ({ page }, use) => {
+    const registerPage = new RegisterPage(page);
+    await use(registerPage);
   },
 });
 
