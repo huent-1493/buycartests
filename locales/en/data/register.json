@@ -1,0 +1,44 @@
+{
+  "validRegistration": {
+    "login": "TestUser",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "Aa@123456",
+    "confirmPassword": "Aa@123456"
+  },
+  "emptyLogin": {
+    "login": "",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "Aa@123456",
+    "confirmPassword": "Aa@123456"
+  },
+  "passwordMismatch": {
+    "login": "HueNguyen",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "Aa@123456",
+    "confirmPassword": "Aa123456@"
+  },
+  "shortPassword": {
+    "login": "HueNguyen",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "123",
+    "confirmPassword": "123"
+  },
+  "simplePassword": {
+    "login": "HueNguyen",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "123456",
+    "confirmPassword": "123456"
+  },
+  "existingUser": {
+    "login": "HueNguyen",
+    "firstName": "Nguyen",
+    "lastName": "Hue",
+    "password": "Aa@123456",
+    "confirmPassword": "Aa@123456"
+  }
+}

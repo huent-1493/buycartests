@@ -72,10 +72,32 @@ export default defineConfig({
         ...devices['Desktop Safari'],
       },
     },
+    // Register tests (unauthenticated)
+    {
+      name: 'register-chromium',
+      testMatch: /.*register\.spec\.ts/,
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+    },
+    {
+      name: 'register-firefox',
+      testMatch: /.*register\.spec\.ts/,
+      use: {
+        ...devices['Desktop Firefox'],
+      },
+    },
+    {
+      name: 'register-webkit',
+      testMatch: /.*register\.spec\.ts/,
+      use: {
+        ...devices['Desktop Safari'],
+      },
+    },
     // User role tests (authenticated)
     {
       name: 'user-chromium',
-      testIgnore: /.*login\.spec\.ts/,
+      testIgnore: /.*login\.spec\.ts|.*register\.spec\.ts/,
       use: {
         ...devices['Desktop Chrome'],
         storageState: '.auth/user.json',
@@ -84,7 +106,7 @@ export default defineConfig({
     },
     {
       name: 'user-firefox',
-      testIgnore: /.*login\.spec\.ts/,
+      testIgnore: /.*login\.spec\.ts|.*register\.spec\.ts/,
       use: {
         ...devices['Desktop Firefox'],
         storageState: '.auth/user.json',
@@ -93,7 +115,7 @@ export default defineConfig({
     },
     {
       name: 'user-webkit',
-      testIgnore: /.*login\.spec\.ts/,
+      testIgnore: /.*login\.spec\.ts|.*register\.spec\.ts/,
       use: {
         ...devices['Desktop Safari'],
         storageState: '.auth/user.json',
