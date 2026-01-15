@@ -71,19 +71,16 @@ This workflow bridges the gap between manual test documentation and automated te
 **Group test cases that share:**
 
 1. **Same Feature/Module**
-
    - ✅ All login scenarios together
    - ✅ All shopping cart operations together
    - ❌ Login + Checkout + Profile mixed
 
 2. **Same User Flow**
-
    - ✅ Complete guest checkout journey
    - ✅ Complete product search to purchase
    - ❌ Unrelated user journeys mixed
 
 3. **Same Test Level**
-
    - ✅ All smoke tests together
    - ✅ All regression tests for feature X
    - ❌ Smoke + Integration + E2E mixed
@@ -603,12 +600,10 @@ Always save the complete test plan as a markdown file with clear headings, numbe
 **This workflow is standalone but integrates with:**
 
 - **Next Step (Optional)**: `3_test_generation_workflow.md`
-
   - Use generated specification as input for AI test code generation
   - Attach the `.md` specification file when requesting test generation
 
 - **Alternative**: Manual Test Creation
-
   - Use specification as blueprint for manual test implementation
   - Share with QA team for test case review
 

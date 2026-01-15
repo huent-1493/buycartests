@@ -388,13 +388,11 @@ pnpm quality:check
 ### Playwright-Specific Rules Applied
 
 1. **Test Structure Enforcement**
-
    - `playwright/max-nested-describe`: Prevents deeply nested test structures
    - `playwright/no-conditional-in-test`: Ensures deterministic tests
    - `playwright/no-focused-test`: Prevents committed focused tests
 
 2. **Best Practices Enforcement**
-
    - `playwright/prefer-web-first-assertions`: Modern assertion patterns
    - `playwright/no-wait-for-timeout`: Encourages stable waiting strategies
    - `playwright/no-raw-locators`: Promotes page object model usage
@@ -424,17 +422,14 @@ pnpm quality:check
 ### Common Issues and Solutions
 
 1. **ESLint TypeScript Project Errors**
-
    - Ensure `tsconfig.json` exists and is properly configured
    - Verify `parserOptions.project` path in `.eslintrc.json`
 
 2. **Husky Hooks Not Running**
-
    - Check file permissions: `chmod +x .husky/*`
    - Verify Git hooks are enabled: `git config core.hooksPath .husky`
 
 3. **Prettier vs ESLint Conflicts**
-
    - Both tools are configured to work together
    - Prettier handles formatting, ESLint handles code quality
    - Run `pnpm format` before `pnpm lint` if conflicts arise

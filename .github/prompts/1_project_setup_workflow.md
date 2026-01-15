@@ -15,13 +15,11 @@ project following established standards with minimal redundancy and maximum effi
 **Execute Sequential Steps:**
 
 1. **Project Structure Creation** (`components/project_structure_generator.md`)
-
    - Create directory structure based on project type
    - Generate core configuration files (package.json, tsconfig.json, playwright.config.ts)
    - Setup environment files (.env.example, .env)
 
 2. **Code Quality Rules Setup** (`components/rules_generator.md`)
-
    - Generate ESLint configuration with TypeScript best practices
    - Setup Prettier for consistent code formatting
    - Configure Husky for pre-commit quality gates
@@ -29,13 +27,11 @@ project following established standards with minimal redundancy and maximum effi
    - Install and configure all quality tools dependencies
 
 3. **Infrastructure Generation** (`components/config_generator.md`)
-
    - Generate authentication fixtures based on project type
    - Create site/role-specific configurations
    - Setup CI/CD integration files
 
 4. **Utilities Creation** (`components/utils_generator.md`)
-
    - Create AuthManager for project type (multi-site or single-site-multi-role)
    - Build test utilities and helper functions
    - Generate environment validation utilities
